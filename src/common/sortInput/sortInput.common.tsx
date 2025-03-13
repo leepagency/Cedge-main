@@ -18,7 +18,7 @@ export const SortInput: React.FC<SortInputProps> = ({ options }) => {
   const pathname = usePathname();
   const router = useRouter();
   const handleSort = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const params = new URLSearchParams(searchParams.toString());
+    const params = new URLSearchParams(searchParams?.toString() ?? "");
     params.set("sort_key", e.target.value);
     const url = `${pathname}?${params.toString()}`;
     router.push(url, {
@@ -55,7 +55,7 @@ export const SortInput: React.FC<SortInputProps> = ({ options }) => {
         },
       }}
       onChange={handleSort}
-      value={searchParams.get("sort_key") || "select"}
+      value={searchParams?.get("sort_key") || "select"}
       SelectProps={{
         MenuProps: {
           PaperProps: {

@@ -18,7 +18,7 @@ export const SelectInput: React.FC<SelectInputProps> = ({ options, resetActiveTa
   const pathname = usePathname();
   const router = useRouter();
   const handleSelectTag = (e: React.ChangeEvent<HTMLInputElement>) => {
-    const params = new URLSearchParams(searchParams.toString());
+    const params = new URLSearchParams(searchParams?.toString() ?? "");
     params.set("type", e.target.value);
     params.delete("tag");
     resetActiveTags && resetActiveTags();
@@ -67,7 +67,7 @@ export const SelectInput: React.FC<SelectInputProps> = ({ options, resetActiveTa
         },
       }}
       onChange={handleSelectTag}
-      value={searchParams.get("type") || "select"}
+      value={searchParams?.get("type") || "select"}
     >
       <MenuItem
         className="option"

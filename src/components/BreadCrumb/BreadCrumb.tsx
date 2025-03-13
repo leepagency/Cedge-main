@@ -17,14 +17,14 @@ interface BreadcrumbProps {
 const Breadcrumb: React.FC<BreadcrumbProps> = ({ color = "#fff" }) => {
   const t = useTranslations("labelsUrl");
   const pathname = usePathname();
-  const pathSegments = pathname.split("/").filter((segment) => segment);
+  const pathSegments = pathname?.split("/").filter((segment) => segment) ?? [];
   const localActive = useLocale();
   const breadcrumbs: BreadcrumbItem[] = pathSegments.map((segment, index) => {
     
     const href = "/" + pathSegments.slice(0, index + 1).join("/");
     let pageDetailsURL;
     
-    if (pathname.split('/').reverse()[0] == 'articles' || pathname.split('/').reverse()[0] == 'e-books' || pathname.split('/').reverse()[0] == 'reports') {
+    if (pathname?.split('/').reverse()[0] == 'articles' || pathname?.split('/').reverse()[0] == 'e-books' || pathname?.split('/').reverse()[0] == 'reports') {
       switch (href.split('/').reverse()[0]) {
         case 'articles':
           pageDetailsURL = 'articleDetails';

@@ -20,10 +20,10 @@ export const SearchSortArea: React.FC<SearchSortAreaProps> = ({ sortInputProps, 
   const searchParams = useSearchParams();
   const pathname = usePathname();
   const router = useRouter();
-  const [activeTags, setActiveTags] = React.useState<string[]>(searchParams.get("tag")?.split(",") ?? []);
+  const [activeTags, setActiveTags] = React.useState<string[]>(searchParams?.get("tag")?.split(",") ?? []);
 
   useEffect(() => {
-    const params = new URLSearchParams(searchParams.toString());
+    const params = new URLSearchParams(searchParams?.toString() ?? "");
     const tagsParam = activeTags.join(",");
     if (tagsParam) {
       params.set("tag", tagsParam);

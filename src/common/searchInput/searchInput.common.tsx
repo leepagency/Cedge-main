@@ -21,13 +21,15 @@ export const SearchInput: React.FC<SearchInputProps> = () => {
   const pathname = usePathname();
   const router = useRouter();
 
-  const [text, setText] = useState(searchParams.get("search_text")?.toString() || "");
+  const [text, setText] = useState(searchParams?.get("search_text") || "");
   const [query] = useDebounce(text, 750);
 
   function handleSearch(term: string) {
     setText(term);
   }
   useEffect(() => {
+    if (!searchParams) return;
+    
     const params = new URLSearchParams(searchParams.toString());
     if (query === "") {
       params.delete("search_text");
@@ -48,7 +50,7 @@ export const SearchInput: React.FC<SearchInputProps> = () => {
 
   return (
     <TextField
-      defaultValue={searchParams.get("search_text")?.toString()}
+      defaultValue={searchParams?.get("search_text") || ""}
       value={text}
       onChange={(e) => {
         handleSearch(e.target.value);

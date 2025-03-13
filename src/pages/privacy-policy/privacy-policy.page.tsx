@@ -5,7 +5,7 @@ import { AnimateFromBottom } from "@/common/animateFromBottom/animateFromBottom.
 import { Stack, Typography, Container } from "@mui/material";
 import "./styles.scss";
 
-export const PrivacyPolicy: React.FC = () => {
+const PrivacyPolicy: React.FC = () => {
   return (
     <Container maxWidth="lg" className="privacy-policy-container">
    
@@ -259,3 +259,5 @@ export const PrivacyPolicy: React.FC = () => {
     </Container>
   );
 };
+
+export default PrivacyPolicy;
