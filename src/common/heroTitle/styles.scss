@@ -1,0 +1,53 @@
+.hero-title.MuiTypography-root {
+  background: linear-gradient(90deg, #fff 2%, rgb(255 255 255 / 89%) 143.97%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 7rem;
+  font-style: normal;
+  font-weight: 700;
+  margin-bottom: -1rem;
+  max-width: 80vw;
+  [dir="rtl"] & {
+    letter-spacing: 5px !important;
+    line-height: 1.5;
+  }
+}
+
+@media (max-width: 1440px) {
+  .hero-title.MuiTypography-root {
+    font-size: 5rem;
+  }
+}
+@media (max-width: 1024px) {
+  .hero-title.MuiTypography-root {
+    font-size: 3rem;
+    margin-bottom: 0rem;
+    [dir="rtl"] & {
+      letter-spacing: 0px !important;
+      line-height: 1.5;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-title.MuiTypography-root {
+    font-size: 2.85rem;
+    margin-bottom: 0rem;
+    [dir="rtl"] & {
+      letter-spacing: 0px !important;
+      line-height: 1.5;
+    }
+  }
+}
+
+@media (max-width: 567px) {
+  .hero-title.MuiTypography-root {
+    font-size: 2.25rem;
+    margin-bottom: 0rem;
+    [dir="rtl"] & {
+      letter-spacing: 0px !important;
+      line-height: 1.5;
+    }
+  }
+}

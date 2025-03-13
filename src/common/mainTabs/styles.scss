@@ -1,0 +1,101 @@
+.tabs-container {
+  width: 100%;
+  background-image: linear-gradient(132deg, #9f57ff 0%, #6525ba 100%);
+  height: 86.6px;
+
+  .tabs {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+    .MuiTabs-flexContainer {
+      gap: 32px;
+    }
+    .MuiTabs-scroller {
+      overflow-x: auto !important;
+    }
+    .tab {
+      padding: 0;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 150%;
+      color: #fff;
+      min-width: 0;
+      [dir="rtl"] & {
+        line-height: unset;
+      }
+    }
+    .Mui-selected {
+      color: #fff;
+      font-weight: 500;
+      &::before {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 96%;
+        border-bottom: 4px solid #fff;
+      }
+    }
+    .MuiTabs-indicator {
+      display: none;
+    }
+  }
+  @media screen and (min-width: 769px) and (max-width: 993px) {
+    height: 70px;
+    .tabs {
+      .MuiTabs-flexContainer {
+        gap: 28px;
+      }
+      .tab {
+        font-size: 14px;
+      }
+      .Mui-selected {
+        &::before {
+          content: "";
+          width: 90%;
+          border-bottom: 3px solid #fff;
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    height: 60px;
+    .tabs {
+      .MuiTabs-flexContainer {
+        gap: 20px;
+      }
+      .tab {
+        font-size: 14px;
+        min-height: 32px;
+      }
+      .Mui-selected {
+        &::before {
+          content: "";
+          width: 85%;
+          border-bottom: 2px solid #fff;
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 0) and (max-width: 576px) {
+    height: 50px;
+    .tabs {
+      .MuiTabs-flexContainer {
+        gap: 16px;
+      }
+      .tab {
+        font-size: 12px;
+        min-height: 32px;
+      }
+      .Mui-selected {
+        &::before {
+          content: "";
+          width: 80%;
+          border-bottom: 2px solid #fff;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,81 @@
+.subscribe-area-container {
+  height: 100% !important;
+  padding: 5rem 0;
+  background-image: url(../../assets/images/grow.png);
+  background-size: 100% 100%;
+  align-items: center;
+  justify-content: center;
+  .subscribe-title {
+    font-size: 155px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+  }
+  .subscribe-form-container {
+    width: 652px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    .subscribe-input-container {
+      width: 100%;
+      height: 72px;
+      min-height: 72px;
+      input {
+        font-size: 20px;
+        font-weight: 400;
+      }
+    }
+    .subscribe-form-btn {
+      font-size: 16px;
+      font-weight: 400;
+      border-radius: 12px;
+      width: 100%;
+      height: 72px;
+      background-image: linear-gradient(132deg, #9f57ff 0%, #6525ba 100%);
+      &:hover {
+        background-color: linear-gradient(132deg, #9f57ff 0%, #6525ba 100%);
+      }
+      &:disabled{
+        background-image: linear-gradient(132deg, #d5b9fa 0%, #413e46 100%);
+        opacity: 0.5;
+      }
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .subscribe-title {
+      font-size: 43px;
+    }
+    .subscribe-form-container {
+      width: 320px;
+      .subscribe-input-container {
+        height: 47px;
+        min-height: 47px;
+        input {
+          font-size: 20px;
+          font-weight: 300;
+        }
+      }
+      .subscribe-form-btn {
+        height: 47px;
+      }
+    }
+  }
+  @media screen and (min-width: 769px) and (max-width: 1200px) {
+    .subscribe-title {
+      font-size: 125px;
+    }
+    .search-input-container {
+      height: 47px;
+      min-height: 47px;
+      input {
+        padding: 0 16px;
+        font-size: 12px;
+      }
+    }
+  }
+  @media screen and (min-width: 1201px) and (max-width: 1440px) {
+    .subscribe-title {
+      font-size: 145px;
+    }
+  }
+}

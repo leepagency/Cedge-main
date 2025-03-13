@@ -1,0 +1,11 @@
+.home-trust-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 0;
+  overflow: hidden;
+  gap: 6rem;
+  .slick-slider {
+    bottom: 30px;
+  }
+}

@@ -1,0 +1,26 @@
+.header-btn.MuiButton-root {
+  border-radius: 0.825rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(0.825rem);
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+  transition: 0.7s ease-in-out;
+  padding: 1rem 1.5rem;
+  &:hover {
+    background: linear-gradient(132deg, #9f57ff 0%, #6525ba 100%);
+  }
+}
+
+@media (max-width: 1440px) {
+  .header-btn.MuiButton-root {
+    padding: 0.75rem 1rem;
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .header-btn.MuiButton-root {
+    display: none;
+  }
+}

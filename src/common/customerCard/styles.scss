@@ -1,0 +1,223 @@
+.customer-card-container.MuiStack-root {
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  border-radius: 24px;
+  background: #0d0d17;
+  box-shadow: 8px 8px 20px 0px rgba(0, 0, 0, 0.15);
+  backdrop-filter: blur(30px);
+  transition: all 1s ease-in;
+  width: 100%;
+  filter: blur(1px);
+  img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+  }
+  .customer-card-sign {
+    position: absolute;
+    font-size: 8rem;
+    color: #898989;
+    z-index: 9999999999999999;
+    opacity: 0.5;
+    left: 2rem;
+    top: 0rem;
+  }
+
+  .customer-card-name.MuiTypography-root {
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; /* 51.2px */
+    [dir="rtl"] & {
+      line-height: unset;
+    }
+  }
+  .customer-card-position.MuiTypography-root {
+    color: #dadada;
+    font-size: 1.375rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 170%; /* 37.4px */
+    opacity: 0.5;
+    text-wrap: wrap;
+    [dir="rtl"] & {
+      line-height: unset;
+    }
+  }
+  .customer-card-quote.MuiTypography-root {
+    position: relative;
+    margin-top: 0rem;
+    color: #fff;
+    text-align: center;
+    opacity: 1;
+    font-size: 0.7rem;
+    font-style: normal;
+    padding: 2rem 0 0 0;
+    font-weight: 200;
+    line-height: 160%; /* 92.8px */
+    [dir="rtl"] & {
+      line-height: unset;
+      direction: rtl !important;
+    }
+    [dir="ltr"] & {
+      direction: ltr;
+    }
+  }
+  /* quote symbol */
+  // .customer-card-quote.MuiTypography-root::before {
+  //   position: absolute;
+  //   content: "“";
+  //   font-size: 5rem;
+  //   color: #fff;
+  //   opacity: 1;
+  //   top: -1rem;
+  //   left: 0.1rem;
+  // }
+}
+/* active styles */
+.customer-card-active.MuiStack-root {
+  background: url(../../assets/images/success-card-background.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.slick-center {
+  position: relative;
+  scale: 1.25 1.15 !important;
+  transition: all 0.8s ease-in-out;
+  z-index: 1189484849955595959 !important;
+  .customer-card-container.MuiStack-root {
+    background: url(../../assets/images/success-card-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    // width: 40rem;
+    filter: blur(0px) !important;
+  }
+}
+.slick-slide {
+  position: relative;
+  z-index: 0;
+  /* scale: 0.9; */
+  float: left !important;
+}
+.slick-list {
+  padding: 2rem 0;
+}
+
+@media (max-width: 1650px) {
+  .customer-card-container.MuiStack-root {
+    gap: 0.75rem;
+    padding: 2.5rem;
+    border-radius: 22px;
+    // width: 50rem !important;
+    .customer-card-name.MuiTypography-root {
+      font-size: 1.75rem;
+    }
+    .customer-card-position.MuiTypography-root {
+      font-size: 1.375rem;
+    }
+    .customer-card-quote.MuiTypography-root {
+      position: relative;
+      margin-top: 1.5rem;
+      font-size: 0.9rem;
+    }
+  }
+}
+
+.font-30 {
+  font-size: 30px;
+  top: 8px;
+  position: relative;
+  padding: 0 0.25rem;
+  line-height: 0.5;
+}
+@media (max-width: 1400px) {
+  .slick-center {
+    scale: 1 !important;
+  }
+  .customer-card-container.MuiStack-root {
+    padding: 1rem;
+    border-radius: 8px;
+    img {
+      width: 100px;
+      height: 100px;
+    }
+    .customer-card-sign {
+      font-size: 4rem;
+    }
+    .customer-card-position.MuiTypography-root {
+      font-size: 0.875rem;
+    }
+    .customer-card-name.MuiTypography-root {
+      font-size: 1rem;
+    }
+    .customer-card-quote.MuiTypography-root {
+      font-size: 0.875rem;
+      margin-top: 0.5rem;
+    }
+    .customer-card-quote.MuiTypography-root::before {
+      font-size: 4rem;
+      left: 1rem;
+    }
+  }
+}
+@media (max-width: 1200px) {
+  .slick-center {
+    scale: 1 !important;
+  }
+  .customer-card-container.MuiStack-root {
+    padding: 1rem;
+    border-radius: 8px;
+    img {
+      width: 100px;
+      height: 100px;
+    }
+    .customer-card-sign {
+      font-size: 4rem;
+    }
+    .customer-card-position.MuiTypography-root {
+      font-size: 0.875rem;
+    }
+    .customer-card-name.MuiTypography-root {
+      font-size: 1rem;
+    }
+    .customer-card-quote.MuiTypography-root {
+      font-size: 0.875rem;
+      margin-top: 0.5rem;
+    }
+    .customer-card-quote.MuiTypography-root::before {
+      font-size: 4rem;
+      left: 1rem;
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .slick-center {
+    .customer-card-container.MuiStack-root {
+      margin: 0 !important;
+    }
+  }
+  .customer-card-container.MuiStack-root {
+    margin: 0 !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .slick-center {
+    .customer-card-container.MuiStack-root {
+      width: 100% !important;
+      margin: 0 !important;
+    }
+  }
+  .customer-card-container.MuiStack-root {
+    width: 100% !important;
+    margin: 0 !important;
+  }
+}
+

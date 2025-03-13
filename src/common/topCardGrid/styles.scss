@@ -1,0 +1,11 @@
+.top-cards-grid {
+  display: grid;
+  gap: 36px;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 44px;
+  position: relative;
+  @media screen and (max-width: 768px) {
+    gap: 16px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

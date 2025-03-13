@@ -1,0 +1,265 @@
+{
+  "Index": {
+    "title": "Index",
+    "description": "This is the index page"
+  },
+  "headerRequestBtn": {
+    "title": "Request Consultancy"
+  },
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "industries": "Industries",
+    "capabilities": "Services",
+    "blog": "Blog"
+  },
+  "homeHero": {
+    "firstTitle": "Insights To Impact !",
+    "secondTitle": "Not Just a Consultancy.",
+    "desc": "Leveraging analytical knowledge and regional expertise to navigate businesses towards competitive advantage and market leadership.",
+    "button": "Request Consultancy"
+  },
+  "notFound": {
+    "no_data_found": "There is no data for that slug"
+  },
+  "homeExplore": {
+    "title": "Explore Cedge",
+    "desc": "Our extensive experience, vast knowledgable, and visionary insights guide you toward achieving your goals in any business environment.",
+    "firstSmallTitle": "We don't just follow the trends; we create them.",
+    "secondSmallTitle": "We don't just solve problems; we innovate solutions.",
+    "thirdSmallTitle": "We don't just advise; we partner.",
+    "grid": {
+      "smallItem": "Explore",
+      "firstItem": {
+        "title": "Pioneers in Consultancy",
+        "desc": "We offer a comprehensive range of services designed to address various aspects of business operations. Our expertise includes:"
+      },
+      "secondItem": {
+        "title": "Operational Excellence"
+      },
+      "thirdItem": {
+        "title": "Risk and Resilience",
+        "desc": ""
+      },
+      "secondGrid": {
+        "firstItem": {
+          "title": "Organizational Change Management"
+        },
+        "secondItem": {
+          "title": "Architecture marketing & sales"
+        },
+        "thirdItem": {
+          "title": "Business and Growth Strategies"
+        },
+        "fourthItem": {
+          "title": "We are the Northstar, guiding you to success with strategic brilliance and an unwavering commitment to excellence."
+        },
+        "fifthItem": {
+          "title": "Financial Advisory"
+        },
+        "sixthItem": {
+          "title": "Merge & Acquisition"
+        },
+        "seventhItem": {
+          "title": "Digital Transformation"
+        }
+      }
+    }
+  },
+  "homeTrust": {
+    "title": "Trusted by"
+  },
+  "commons": {
+    "view": "View",
+    "search": "Search",
+    "sort-by": "Sort By",
+    "back": "Back",
+    "featured-aticle": "Featured Article",
+    "ebooks": "E-Books",
+    "articles": "Articles",
+    "reports": "Reports",
+    "blog": "Blog",
+    "explore": "Explore",
+    "industries": "Industries",
+    "capabilities": "Services",
+    "all": "All",
+    "e-books": "E-Books",
+    "get-in-touch": "Get In Touch",
+    "about-banner": "Know more about us",
+    "overview": "Overview",
+    "address": "Address",
+    "getInTouch": "Get In Touch"
+  },
+  "subscribe": {
+    "title": "Subscribe",
+    "send": "Send",
+    "enter-email": "Enter your email address"
+  },
+  "articles": {
+    "title": "Articles",
+    "featured-Article": "Featured Article",
+    "view": "View",
+    "download": "Download"
+  },
+  "labelsUrl": {
+    "en": "en",
+    "industries": "industries",
+    "about": "about",
+    "services": "services",
+    "blog": "blog",
+    "articles": "Articles",
+    "e-books": "E-Books",
+    "reports": "Reports",
+    "articleDetails": "",
+    "eBookDetails": "",
+    "reportDetails": "",
+    "industryDetails": "",
+    "serviceDetails": "",
+    "homeBreadcrumb": ""
+  },
+  "reports": {
+    "title": "Reports",
+    "view": "View",
+    "download": "Download"
+  },
+  "e-Books": {
+    "title": "E-Books",
+    "view": "View"
+  },
+  "blog": {
+    "title": "Blog",
+    "all": "All",
+    "articles": "articles",
+    "reports": "Reports",
+    "e-books": "E-Books"
+  },
+  "item-details": {
+    "download": "Download",
+    "related": "Related",
+    "articles": "Articles"
+  },
+  "industries": {
+    "list-of-industries": "List of industries",
+    "overview": "Overview",
+    "services": "Services",
+    "client-results": "Client results",
+    "insights": "Insights",
+    "our-people": "Our people",
+    "contact": "Contact"
+  },
+  "capabilities": {
+    "list-of-capabilities": "It's all about making an Impact",
+    "overview": "Overview",
+    "services": "Services",
+    "insights": "Insights",
+    "clients": "Clients",
+    "testimonials": "Testimonials",
+    "get-in-touch": "Get In Touch"
+  },
+  "about": {
+    "partners": "Partners",
+    "hero": "Know more about us",
+    "who": "Who we are",
+    "vision": "Vision",
+    "visionDesc": "Elevating Excellence in Advisory Services, Catalyzing Transformation for Saudi Arabia's Leading Businesses and Organizations",
+    "mission": "Mission",
+    "missionDesc": "Driving sustainable business growth, inspiring positive impact in the corporate landscape, and guiding companies as their strategic partner in innovation and success",
+    "principles": "Our Principles",
+    "principle1": "Innovation at the Forefront",
+    "principle1Desc": "To become the leader in your industry, through our designed tools using AI-driven analytics to the states of digital platforms",
+    "principle2": "Cultural Synergy",
+    "principle2Desc": "To become the leader in your industry, through our designed tools using AI-driven analytics to the states of digital platforms",
+    "principle3": "Data-Driven Strategic Intelligence",
+    "principle3Desc": "We go beyond conventional data analysis, transforming intricate datasets into strategies that drive actionable and forward-looking outcomes",
+    "principle4": "Pioneering Impactful Solutions",
+    "principle4Desc": "Prioritizing meaningful results and lasting value, we surpass traditional limits, providing scalable advancements that exceed expectations."
+  },
+  "homeGrowSection": {
+    "title": "Are you ready to grow?",
+    "description": "We would love to hear from you and explore how we can help you achieve your business goals and aspirations.",
+    "btn": "Book a Strategy Call"
+  },
+  "homeCustomers": {
+    "firstTitle": "What Our",
+    "secondTitle": "Partners Say"
+  },
+  "successSection": {
+    "firstTitle": "Your success",
+    "secondTitle": "our compass"
+  },
+  "contactForm": {
+    "title": "Contact Us",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "descriptions": "Message",
+    "subject": "Services",
+    "send": "Send",
+    "1Select": "Financial Advisory",
+    "2Select": "Marriage and Acquisition",
+    "3Select": "Governance, Risk and Resilience",
+    "4Select": "Business and Growth",
+    "5Select": "Marketing and Sales",
+    "6Select": "Change Management ",
+    "7Select": "Operational Excellence",
+    "getInTouch": "Get In Touch !",
+    "Get In": "Get In",
+    "touch": "touch"
+  },
+  "sort": {
+    "title": "Select category",
+    "capabilities": "Services category",
+    "industries": "Industries category",
+    "descending": "Latest",
+    "ascending": "Newest"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last Updated: [03, 11, 2025]",
+    "introduction": {
+      "title": "1. Introduction",
+      "content": "Welcome to Cedge ('we,' 'our,' or 'us'). We value your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website (the 'Site') or use our services."
+    },
+    "collect": {
+      "title": "2. Information We Collect",
+      "content": "We may collect both personally identifiable information ('Personal Information') and non-personally identifiable information ('Usage Data') in a variety of ways",
+      "personalInfo": {
+        "title": "Personal Information:",
+        "items": [
+          "Contact details such as your name, email address, phone number, or postal address",
+          "Professional details such as your organization or title",
+          "Resume/CV information if you apply for a position"
+        ]
+      },
+      "usageData": {
+        "title": "Usage Data:",
+        "items": [
+          "Technical information such as your IP address, browser type, operating system, device information, and referring website",
+          "Browsing behavior including pages viewed, links clicked, and other usage statistics"
+        ]
+      }
+    },
+    "usage": {
+      "title": "3. How We Use Your Information",
+      "content": "We use the information we collect for purposes such as:",
+      "services": {
+        "title": "Providing and Improving Services:",
+        "items": [
+          "To respond to your inquiries, process requests, and communicate with you about our offerings",
+          "To enhance, customize, and personalize user experience on our Site"
+        ]
+      }
+    },
+    "cookies": {
+      "title": "4. Cookies and Similar Technologies",
+      "content": "Our Site may use 'cookies' and similar tracking technologies to collect Usage Data and distinguish you from other users of our Site. This helps us deliver a better and more personalized experience."
+    },
+    "contact": {
+      "title": "13. Contact Us",
+      "content": "If you have any questions, comments, or concerns about this Privacy Policy or our data practices, please contact us at:",
+      "email": "Email",
+      "address": "Address",
+      "closing": "Thank you for trusting Cedge with your information. We are committed to safeguarding your privacy and handling your Personal Information responsibly."
+    }
+  }
+}

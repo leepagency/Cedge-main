@@ -1,0 +1,41 @@
+.sort-input-container {
+  width: 181px;
+  height: 76px;
+  min-height: 76px;
+
+  .MuiSelect-select {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  @media screen and (max-width: 768px) {
+    width: 117px;
+    height: 47px;
+    min-height: 47px;
+    .MuiSelect-select {
+      padding: 0 16px;
+      font-size: 12px;
+    }
+  }
+  //   @media screen and (min-width: 769px) and (max-width: 1200px) {
+  //     height: 76px;
+  //   }
+
+  //   @media screen and (min-width: 1201px) {
+  //     height: 76px;
+  //   }
+  @media screen and (max-width: 1200px) {
+    align-self: flex-end;
+  }
+}
+.MuiMenu-root {
+  .option {
+    font-size: 18px;
+    font-weight: 300;
+    z-index: 9999;
+  }
+  @media screen and (max-width: 768px) {
+    .option {
+      font-size: 12px;
+    }
+  }
+}

@@ -1,0 +1,129 @@
+.custom-card-link {
+  text-decoration: none;
+  .-custom-card-container {
+    width: 100%;
+    gap: 24px;
+    padding: 0 1rem;
+    [dir='rtl'] & { 
+      direction: rtl;
+    }
+
+    .--card-image {
+      height: 289px;
+      border-radius: 12px;
+      object-fit: cover;
+      width: 100%;
+    }
+    .--card-title {
+      width: 90%;
+      color: #fff;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+    .--card-sub-title {
+      width: 90%;
+      color: #5a7184;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+    }
+  }
+  @media screen and (min-width: 1441px) and (max-width: 1650px) {
+    .-custom-card-container {
+      gap: 18px;
+      .--card-image {
+        height: 260px;
+      }
+      .--card-title {
+        width: 95%;
+        font-size: 28px;
+      }
+      .--card-sub-title {
+        width: 90%;
+        font-size: 16px;
+      }
+    }
+  }
+  @media screen and (min-width: 1201px) and (max-width: 1440px) {
+    .-custom-card-container {
+      gap: 16px;
+      .--card-image {
+        height: 230px;
+      }
+      .--card-title {
+        width: 95%;
+        font-size: 22px;
+      }
+      .--card-sub-title {
+        width: 95%;
+        font-size: 14px;
+      }
+    }
+  }
+  @media screen and (min-width: 994px) and (max-width: 1200px) {
+    .-custom-card-container {
+      gap: 14px;
+      .--card-image {
+        height: 200px;
+      }
+      .--card-title {
+        width: 95%;
+        font-size: 20px;
+      }
+      .--card-sub-title {
+        width: 95%;
+        font-size: 14px;
+      }
+    }
+  }
+  @media screen and (min-width: 769px) and (max-width: 993px) {
+    .-custom-card-container {
+      gap: 12px;
+      .--card-image {
+        height: 190px;
+      }
+      .--card-title {
+        width: 95%;
+        font-size: 18px;
+      }
+      .--card-sub-title {
+        width: 95%;
+        font-size: 12px;
+      }
+    }
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    .-custom-card-container {
+      gap: 10px;
+      .--card-image {
+        height: 180px;
+      }
+      .--card-title {
+        width: 95%;
+        font-size: 16px;
+      }
+      .--card-sub-title {
+        width: 95%;
+        font-size: 12px;
+      }
+    }
+  }
+  @media screen and (min-width: 0) and (max-width: 576px) {
+    .-custom-card-container {
+      gap: 10px;
+      .--card-image {
+        height: 180px;
+      }
+      .--card-title {
+        width: 95%;
+        font-size: 16px;
+      }
+      .--card-sub-title {
+        width: 95%;
+        font-size: 12px;
+      }
+    }
+  }
+}

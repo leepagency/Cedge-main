@@ -1,0 +1,23 @@
+.testimonials-slider-container {
+  // width: 100%;
+
+  .slick-slide {
+    padding-inline: 14px;
+
+    @media screen and (min-width: 1201px) and (max-width: 1440px) {
+      padding-inline: 12px;
+    }
+    @media screen and (min-width: 994px) and (max-width: 1200px) {
+      padding-inline: 10px;
+    }
+    @media screen and (min-width: 769px) and (max-width: 993px) {
+      padding-inline: 9px;
+    }
+    @media screen and (min-width: 577px) and (max-width: 768px) {
+      padding-inline: 8px;
+    }
+    @media screen and (min-width: 0) and (max-width: 576px) {
+      padding-inline: 6px;
+    }
+  }
+}

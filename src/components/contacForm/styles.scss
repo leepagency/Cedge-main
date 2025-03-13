@@ -1,0 +1,160 @@
+.contact-us-main {
+  width: 100%;
+
+  &.MuiStack-root {
+    background: url(../../assets/images/form-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+}
+.contact-us-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 2rem;
+  padding: 120px 0;
+
+  align-items: flex-start;
+  &.MuiStack-root {
+    align-items: center;
+    justify-content: center;
+    // gap: 227px;
+  }
+  & .main-title {
+    &.MuiTypography-h2 {
+      font-size: 9.688rem !important;
+    }
+  }
+}
+.form-row-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 11px;
+  &.MuiStack-root {
+    flex-direction: row;
+    gap: 11px;
+    align-items: center;
+    &.modal {
+      flex-direction: column;
+      & .common-text-field.MuiTextField-root {
+        width: 100% !important;
+      }
+      & .phone-text-field {
+        width: 100% !important;
+      }
+    }
+  }
+}
+
+.text-field-multiline {
+  &.modal {
+    & .common-text-field.MuiTextField-root {
+      width: 100% !important;
+      & .MuiInputBase-input {
+        height: 4.5rem !important;
+      }
+    }
+  }
+  & .common-text-field.MuiTextField-root {
+    padding: 10px;
+    width: 100% !important;
+    & .MuiInputBase-input {
+      height: 6.5rem !important;
+    }
+  }
+}
+.form-submit-button {
+  &.MuiButton-root {
+    width: 100%;
+    border-radius: 12px;
+    background: linear-gradient(132deg, #9f57ff 0%, #6525ba 100%);
+    backdrop-filter: blur(4.5px);
+    display: flex;
+    padding: 27px 24px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 100%; /* 18px */
+    color: #fff;
+    [dir="rtl"] & {
+      line-height: unset;
+    }
+    &.Mui-disabled {
+      background: #6525ba;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .contact-us-container {
+    grid-template-columns: repeat(1, 1fr);
+    padding: 100px 0;
+    & .main-title {
+      &.MuiTypography-h2 {
+        font-size: 5.688rem !important;
+      }
+    }
+  }
+  .form-row-container {
+    gap: 20px;
+  }
+  .text-field-multiline {
+    & .common-text-field.MuiTextField-root {
+      & .MuiInputBase-input {
+        height: 7.5rem !important;
+      }
+    }
+  }
+  .form-submit-button {
+    &.MuiButton-root {
+      padding: 25px 24px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .contact-us-container {
+    padding: 80px 0;
+    gap: 1rem;
+    grid-template-columns: 1fr;
+    & .main-title {
+      &.MuiTypography-h2 {
+        font-size: 4.5rem !important;
+      }
+    }
+  }
+  .form-row-container {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .text-field-multiline {
+    & .common-text-field.MuiTextField-root {
+      & .MuiInputBase-input {
+        height: 5.5rem !important;
+      }
+    }
+  }
+  .form-submit-button {
+    &.MuiButton-root {
+      padding: 20px 24px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-us-container {
+    padding: 60px 0;
+    & .main-title {
+      &.MuiTypography-h2 {
+        font-size: 2.8rem !important;
+      }
+    }
+  }
+  .form-submit-button {
+    &.MuiButton-root {
+      padding: 16px 18px;
+    }
+  }
+}

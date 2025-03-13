@@ -1,0 +1,22 @@
+.header-item {
+  color: #fff;
+  text-align: center;
+  /* font-family: Inter; */
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.6rem;
+  text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: 0.2s ease-in-out;
+  padding-bottom: 0.25rem;
+  [dir="rtl"] & {
+    line-height: unset;
+  }
+  &:hover {
+    border-bottom: 2px solid #fff;
+  }
+  &.active {
+    border-bottom: 2px solid #fff;
+  }
+}

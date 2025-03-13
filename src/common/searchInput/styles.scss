@@ -1,0 +1,25 @@
+.search-input-container {
+  width: 367px;
+  height: 76px;
+  min-height: 76px;
+  input {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  @media screen and (max-width: 768px) {
+    width: 100%;
+    height: 47px;
+    min-height: 47px;
+    input {
+      padding: 0 16px;
+      font-size: 12px;
+    }
+  }
+  //   @media screen and (min-width: 769px) and (max-width: 1200px) {
+  //     height: 76px;
+  //   }
+
+  //   @media screen and (min-width: 1201px) {
+  //     height: 76px;
+  //   }
+}

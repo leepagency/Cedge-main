@@ -1,0 +1,130 @@
+.grow-section-main-container.MuiStack-root {
+  background: url("../../assets/images/grow.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 3rem;
+  padding-bottom: 6.1rem;
+}
+.grow-section-content.MuiStack-root {
+  gap: 3.125rem;
+  justify-content: center;
+  margin: auto;
+  width: 70%;
+  > .MuiTypography-root:nth-child(1) {
+    color: #fff;
+    text-align: center;
+    font-size: 6.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 110%; /* 110px */
+    letter-spacing: -5px;
+    [dir="rtl"] & {
+      line-height: unset;
+    }
+  }
+  > .MuiTypography-root:nth-child(2) {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: normal;
+    [dir="rtl"] & {
+      line-height: unset;
+    }
+  }
+  > .MuiButtonBase-root {
+    padding: 1.5rem 0;
+    width: 45%;
+    margin: auto;
+    color: #fff;
+    text-align: center;
+    /* font-family: Inter; */
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    [dir="rtl"] & {
+      line-height: unset;
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .grow-section-content.MuiStack-root {
+    padding: 4rem 0 2rem;
+    width: 90%;
+    > .MuiTypography-root:nth-child(1) {
+      color: #fff;
+      font-size: 4.25rem;
+    }
+    > .MuiTypography-root:nth-child(2) {
+      color: #fff;
+      text-align: center;
+      font-size: 24px;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .grow-section-content.MuiStack-root {
+    padding: 3rem 0 2rem;
+    > .MuiButtonBase-root {
+      width: 70%;
+    }
+
+    > .MuiTypography-root:nth-child(1) {
+      font-size: 4rem;
+    }
+    > .MuiTypography-root:nth-child(2) {
+      font-size: 1.25rem;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .grow-section-main-container.MuiStack-root {
+    padding: 5rem 0 5rem;
+  }
+  .grow-section-content.MuiStack-root {
+    padding: 3rem 0 2rem;
+    > .MuiTypography-root:nth-child(1) {
+      font-size: 3rem;
+      letter-spacing: -1px;
+    }
+    > .MuiTypography-root:nth-child(2) {
+      font-size: 1.25rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .grow-section-main-container.MuiStack-root {
+    padding: 0rem 0 0rem;
+  }
+  .grow-section-content.MuiStack-root {
+    margin: 0 auto;
+    width: 100%;
+    gap: 2rem;
+    > .MuiButtonBase-root {
+      padding: 1.5rem 0;
+      width: 100%;
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .grow-section-main-container.MuiStack-root {
+    padding: 0rem 0 1rem;
+  }
+  .grow-section-content.MuiStack-root {
+    > .MuiTypography-root:nth-child(1) {
+      font-size: 2.5rem;
+      letter-spacing: -1px;
+    }
+    > .MuiTypography-root:nth-child(2) {
+      font-size: 1.2rem;
+    }
+  }
+}

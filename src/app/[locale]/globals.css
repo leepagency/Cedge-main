@@ -1,0 +1,100 @@
+/* CSS Reset */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  margin: 0;
+}
+
+/* Remove default margin */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  overflow: hidden;
+}
+
+/* Remove default padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  padding: 0;
+  overflow-x: hidden;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul [dir="rtl"] {
+  letter-spacing: 1.2px !important;
+  line-height: unset !important;
+}
+
+/* Remove list styles on ul, ol elements */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove default outline styles */
+a:focus,
+input:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+/* Add your custom CSS styles below this line */
+body {
+  background-color: black;
+  font-size: 16px;
+  line-height: 1.6;
+  color: white;
+}
+
+/* global css variables */
+:root {
+  --Primary: #13013e;
+  --Color-Light-Grey: #75778b;
+  --Color-Gray: #ffffff;
+  --Color-White: #ffffff;
+}
+.flex {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  * {
+    letter-spacing: 0px !important;
+  }
+  body {
+    font-size: 14px;
+  }
+}
+.rtl-icon {
+  transform: scaleX(-1);
+}

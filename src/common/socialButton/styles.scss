@@ -1,0 +1,13 @@
+.social-button {
+  height: 2.625rem;
+  width: 2.625rem;
+  background-color: rgba(255, 255, 255, 0.15);
+  transition: all 31s ease-in-out;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.social-button:hover {
+  background: linear-gradient(250deg, #ffd9d1 1.2%, #7042d2 43.67%, #000 81.6%);
+}

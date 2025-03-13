@@ -1,0 +1,46 @@
+.item-details-container {
+  margin-bottom: 3rem;
+  // overflow: hidden;
+  position: relative;
+  .item-details-sub-title-container {
+    .item-details-sub-title-main {
+    }
+    .item-details-sub-title-sub {
+    }
+  }
+  // .download-btn {
+  //   align-self: center;
+  //   font-size: 16px;
+  //   font-weight: 400;
+  //   border-radius: 12px;
+  //   width: 652px;
+  //   height: 72px;
+  //   background-image: linear-gradient(132deg, #9f57ff 0%, #6525ba 100%);
+
+  //   &:hover {
+  //     background-color: linear-gradient(132deg, #9f57ff 0%, #6525ba 100%);
+  //   }
+  // }
+}
+.related-card-container {
+  .related-card-title {
+    font-size: 52px;
+    font-weight: 700;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+}
+@media screen and (max-width: 768px) {
+  // .download-btn {
+  //   height: 47px;
+  //   width: 370px;
+  // }
+  .related-card-container {
+    .related-card-title {
+      font-size: 43px;
+      font-weight: 500;
+    }
+  }
+}

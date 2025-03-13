@@ -1,0 +1,119 @@
+.capability-container {
+
+  .-capability-content-container {
+    margin-top: 130px;
+    gap: 24px;
+    .--section-wrapper {
+      overflow-x: hidden; /* Prevents horizontal overflow */
+      .slick-prev,
+      .slick-next {
+        [dir="rtl"] & {
+          transform: rotate(180deg);
+        }
+      }
+      // margin-bottom: 120px;
+      .---cards-grid {
+        margin-top: 32px;
+      }
+      .---tab-title {
+        font-size: 52px;
+        font-weight: 700;
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+        [dir="rtl"] & {
+          background-image: linear-gradient(to left, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+        }
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        letter-spacing: -2.6px;
+      }
+      .---video-player {
+        margin-bottom: 120px;
+      }
+    }
+  }
+  @media screen and (min-width: 1441px) and (max-width: 1650px) {
+    .-capability-content-container {
+      margin-top: 130px;
+      gap: 24px;
+      .--section-wrapper {
+        .---cards-grid {
+        }
+        .---tab-title {
+          font-size: 48px;
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 1201px) and (max-width: 1440px) {
+    .-capability-content-container {
+      margin-top: 130px;
+      gap: 24px;
+      .--section-wrapper {
+        .---cards-grid {
+        }
+        .---tab-title {
+          font-size: 42px;
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 994px) and (max-width: 1200px) {
+    .-capability-content-container {
+      margin-top: 130px;
+      gap: 24px;
+      .--section-wrapper {
+        .---cards-grid {
+        }
+        .---tab-title {
+          font-size: 36px;
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 769px) and (max-width: 993px) {
+    .-capability-content-container {
+      margin-top: 130px;
+      gap: 24px;
+      .--section-wrapper {
+        .---cards-grid {
+        }
+        .---tab-title {
+          font-size: 32px;
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    .-capability-content-container {
+      margin-top: 130px;
+      gap: 24px;
+      .--section-wrapper {
+        .---cards-grid {
+        }
+        .---tab-title {
+          font-size: 32px;
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 0) and (max-width: 576px) {
+    .-capability-content-container {
+      margin-top: 130px;
+      gap: 24px;
+      .--section-wrapper {
+        .---cards-grid {
+        }
+        .---tab-title {
+          font-size: 43px;
+          font-weight: 500;
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 0) and (max-width: 767px) {
+    .-capability-content-container {
+      margin-top: 50px;
+    }
+  }
+}

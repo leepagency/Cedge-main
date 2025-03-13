@@ -1,0 +1,104 @@
+.main-title.MuiTypography-root {
+  font-size: 9rem;
+  font-style: normal;
+  font-weight: 500;
+  /* line-height: 110%; */
+  letter-spacing: -12.5px;
+  background: linear-gradient(90deg, #fff 1.68%, rgb(255 255 255 / 60%) 98.04%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  line-height: 1.4;
+  [dir="rtl"] & {
+    background: linear-gradient(90deg, rgb(255 255 255 / 15%) 1.04%, #fff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    letter-spacing: 0px;
+    font-size: 9rem;
+    // color: white;
+  }
+  &.small-title {
+    font-size: 9rem;
+    letter-spacing: 0px;
+    margin-bottom: 4rem;
+  }
+  &.small-title-execution {
+    max-width: 80%;
+    font-size: 4.85em;
+    letter-spacing: 0px;
+  }
+}
+
+@media (max-width: 1650px) {
+  .main-title.MuiTypography-root {
+    font-size: 10rem;
+    letter-spacing: -8.93px;
+    [dir="rtl"] & {
+      letter-spacing: 0px;
+      font-size: 10rem;
+      // color: white;
+    }
+    &.small-title {
+      font-size: 5.5rem;
+    }
+    &.small-title-execution {
+      font-size: 4rem;
+    }
+  }
+}
+
+@media (max-width: 1440px) {
+  .main-title.MuiTypography-root {
+    font-size: 6.5rem;
+    letter-spacing: -8.93px;
+    line-height: unset;
+    [dir="rtl"] & {
+      font-size: 8rem;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .main-title.MuiTypography-root {
+    font-size: 5.5rem;
+    letter-spacing: -8.93px;
+    &.small-title {
+      font-size: 4.5rem;
+    }
+    &.small-title-execution {
+      font-size: 3.5rem;
+      max-width: 90%;
+    }
+    [dir="rtl"] & {
+      font-size: 4rem;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .main-title.MuiTypography-root {
+    font-size: 4rem;
+    letter-spacing: -2.93px;
+    &.small-title {
+      font-size: 3.125rem;
+    }
+    &.small-title-execution {
+      font-size: 3rem;
+      max-width: 100%;
+    }
+    [dir="rtl"] & {
+      font-size: 3rem;
+    }
+  }
+}
+
+@media (max-width: 567px) {
+  .main-title.MuiTypography-root {
+    font-size: 2.6875rem;
+    letter-spacing: 0px;
+    &.small-title {
+      font-size: 2.1rem;
+    }
+  }
+}

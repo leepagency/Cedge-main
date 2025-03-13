@@ -1,0 +1,63 @@
+.book-card-container {
+  position: relative;
+  border-radius: 8px;
+  width: 100%;
+  transition: all 0.3s !important;
+  background-size: cover !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  overflow: hidden;
+  .shadow {
+    position: absolute; /* Position the shadow relative to the container */
+    top: 0;
+    left: -10px; /* Adjust this value to control the shadow position */
+    width: 10px; /* Adjust this value to control the width of the shadow */
+    height: 100%;
+    box-shadow: 20px 0px 30px 15px #fff; /* Box shadow with spread radius */
+    transition: all 0.3s;
+    z-index: 1; /* Ensure shadow is behind the content */
+  }
+  &:hover .shadow {
+    box-shadow: 20px 0px 40px 20px #fff; /* Box shadow with spread radius */
+  }
+  .book-cover {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+  .btn-container {
+    position: absolute;
+    left: 0;
+    bottom: 36px;
+    text-align: center;
+    width: 100%;
+    .view-btn {
+      width: 138.64px;
+      height: 51.55px;
+      border-radius: 50px;
+      border: solid 1px #fff;
+      color: #fff;
+      font-size: 16px;
+      font-weight: 500;
+      background-color: rgba(22, 17, 17, 0.1);
+      cursor: pointer;
+      backdrop-filter: blur(12px);
+    }
+  }
+  @media screen and (max-width: 768px) {
+    height: 387px;
+    .btn-container {
+      bottom: 16px;
+      .view-btn {
+        font-size: 12px;
+      }
+    }
+  }
+  @media screen and (min-width: 769px) and (max-width: 1200px) {
+    height: 436.36px;
+  }
+
+  @media screen and (min-width: 1201px) {
+    height: 436.36px;
+  }
+}

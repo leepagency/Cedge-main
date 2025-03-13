@@ -1,0 +1,120 @@
+.capabilities-grid-container {
+  margin-top: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  column-gap: 32px;
+  row-gap: 36px;
+  margin-bottom: 64px;
+
+  .list-card {
+    &-0,
+    &-2,
+    &-3,
+    &-4,
+    &-6 {
+      width: calc((100% - 64px) / 3);
+    }
+    &-1,
+    &-5 {
+      width: calc((100% - 32px) / 1.5);
+      .-custom-card-link {
+        // text-align: start;
+        .--card-explore {
+          justify-content: start;
+          transform: translatex(0);
+        }
+      }
+      &:hover {
+        .-custom-card-link {
+          text-align: start;
+          .--card-explore {
+            justify-content: start;
+            transform: translatex(0);
+          }
+        }
+      }
+    }
+    &-7 {
+      width: 100%;
+      .-custom-card-link {
+        // text-align: start;
+        .--card-explore {
+          justify-content: start;
+          transform: translatex(0);
+        }
+      }
+      &:hover {
+        .-custom-card-link {
+          text-align: start;
+          .--card-explore {
+            justify-content: start;
+            transform: translatex(0);
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 1440px) {
+    // display: grid;
+    // grid-template-columns: repeat(3, 1fr);
+    column-gap: 25px;
+    row-gap: 25px;
+    margin-bottom: 48px;
+  }
+  @media (max-width: 1200px) {
+    .list-card {
+      &-0,
+      &-1,
+      &-2,
+      &-3,
+      &-4,
+      &-5,
+      &-6,
+      &-7 {
+        .-custom-card-link {
+          text-align: center;
+          .--card-explore {
+            justify-content: center;
+            transform: translatex(-50%);
+          }
+        }
+        &:hover {
+          .-custom-card-link {
+            text-align: center;
+            .--card-explore {
+              justify-content: center;
+              transform: translatex(0);
+            }
+          }
+        }
+      }
+    }
+  }
+  @media (max-width: 993px) {
+  }
+  @media (max-width: 576px) {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    column-gap: 25px;
+    row-gap: 25px;
+    margin-bottom: 32px;
+    .list-card {
+      &-0,
+      &-1,
+      &-2,
+      &-3,
+      &-4,
+      &-5,
+      &-6,
+      &-7 {
+        width: 100%;
+      }
+    }
+  }
+}
+
+.main-title-style {
+  text-wrap: nowrap;
+}

@@ -1,0 +1,183 @@
+.video-player-container {
+  position: relative;
+  width: 100%  !important;
+  height: 728.575px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 12px;
+  background-color: rgb(211, 211, 211, 0.2);
+  .-video-blur {
+    filter: blur(5px);
+  }
+  .-video-player {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .-video-player-full-screen-btn {
+    position: absolute;
+    top: 36px;
+    right: 36px;
+    background: rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(5.250000953674316px);
+    width: 78.34px;
+    height: 78.341px;
+    &:hover {
+      background: rgba(0, 0, 0, 0.3);
+    }
+    .--video-player-full-screen-btn-icon {
+      width: 36.56px;
+      height: 36.559px;
+    }
+  }
+  .-video-player-play-btn {
+    background: var(--Primary, #13013e);
+    backdrop-filter: blur(5px);
+    width: 167.73px;
+    height: 167.73px;
+    &:hover {
+      background: var(--Primary, #13013e);
+    }
+    .--video-player-play-btn-icon {
+      width: 101.34px;
+      height: 101.337px;
+    }
+  }
+  @media screen and (min-width: 1441px) and (max-width: 1650px) {
+    width: 1100px;
+    height: 700.575px;
+    .-video-player-full-screen-btn {
+      top: 32px;
+      right: 32px;
+      width: 72.34px;
+      height: 72.341px;
+      .--video-player-full-screen-btn-icon {
+        width: 32.56px;
+        height: 32.559px;
+      }
+    }
+    .-video-player-play-btn {
+      width: 157.73px;
+      height: 157.73px;
+      .--video-player-play-btn-icon {
+        width: 90.34px;
+        height: 90.337px;
+      }
+    }
+  }
+  @media screen and (min-width: 1201px) and (max-width: 1440px) {
+    width: 100%;
+    height: 680px;
+    .-video-player-full-screen-btn {
+      top: 30px;
+      right: 30px;
+      width: 68.34px;
+      height: 68.341px;
+      .--video-player-full-screen-btn-icon {
+        width: 28.56px;
+        height: 28.559px;
+      }
+    }
+    .-video-player-play-btn {
+      width: 127.73px;
+      height: 127.73px;
+      .--video-player-play-btn-icon {
+        width: 75.34px;
+        height: 75.337px;
+      }
+    }
+  }
+  @media screen and (min-width: 994px) and (max-width: 1200px) {
+    width: 100%;
+    height: 600px;
+    .-video-player-full-screen-btn {
+      top: 28px;
+      right: 28px;
+      width: 62.34px;
+      height: 62.341px;
+      .--video-player-full-screen-btn-icon {
+        width: 26.56px;
+        height: 26.559px;
+      }
+    }
+    .-video-player-play-btn {
+      width: 100.73px;
+      height: 100.73px;
+      .--video-player-play-btn-icon {
+        width: 60.34px;
+        height: 60.337px;
+      }
+    }
+  }
+  @media screen and (min-width: 769px) and (max-width: 993px) {
+    width: 100%;
+    height: 500px;
+    .-video-player-full-screen-btn {
+      top: 26px;
+      right: 26px;
+      width: 54.34px;
+      height: 54.341px;
+      .--video-player-full-screen-btn-icon {
+        width: 20.56px;
+        height: 20.559px;
+      }
+    }
+    .-video-player-play-btn {
+      width: 80.73px;
+      height: 80.73px;
+      .--video-player-play-btn-icon {
+        width: 40.34px;
+        height: 40.337px;
+      }
+    }
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    width: 100%;
+    height: 350px;
+    .-video-player-full-screen-btn {
+      top: 24px;
+      right: 24px;
+      width: 48.34px;
+      height: 48.341px;
+      .--video-player-full-screen-btn-icon {
+        width: 18.56px;
+        height: 18.559px;
+      }
+    }
+    .-video-player-play-btn {
+      width: 60.73px;
+      height: 60.73px;
+      .--video-player-play-btn-icon {
+        width: 30.34px;
+        height: 30.337px;
+      }
+    }
+  }
+  @media screen and (min-width: 0) and (max-width: 576px) {
+    width: 100%;
+    height: 259px;
+    .-video-player-full-screen-btn {
+      top: 24px;
+      right: 24px;
+      width: 48.34px;
+      height: 48.341px;
+      .--video-player-full-screen-btn-icon {
+        width: 18.56px;
+        height: 18.559px;
+      }
+    }
+    .-video-player-play-btn {
+      width: 45px;
+      height: 45px;
+      .--video-player-play-btn-icon {
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
+}

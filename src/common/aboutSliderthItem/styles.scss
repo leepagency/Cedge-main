@@ -1,0 +1,67 @@
+.find-growth-item {
+  gap: 27px;
+  .-find-growth-item-title {
+    overflow: hidden;
+    // text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    -webkit-text-stroke-width: 1;
+    -webkit-text-stroke-color: #000;
+    // font-family: Poppins;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 121.154%;
+    text-shadow: 0px 4px 4px 0px #00000040;
+
+    background: linear-gradient(90deg, #fff 1.68%, #797979eb 98.04%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: fit-content;
+    text-transform: uppercase;
+    // if direction rtl remove line height
+
+    [dir="rtl"] & {
+      line-height: unset;
+    }
+  }
+
+  .-find-growth-item-description {
+    color: #75778b;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 177.778%;
+    [dir="rtl"] & {
+      line-height: unset;
+    }
+  }
+
+  @media screen and (min-width: 769px) and (max-width: 993px) {
+    gap: 24px;
+    .-find-growth-item-title {
+      font-size: 36px;
+    }
+    .-find-growth-item-description {
+      font-size: 16px;
+    }
+  }
+  @media screen and (min-width: 577px) and (max-width: 768px) {
+    gap: 22px;
+    .-find-growth-item-title {
+      font-size: 24px;
+    }
+    .-find-growth-item-description {
+      font-size: 14px;
+    }
+  }
+  @media screen and (min-width: 0) and (max-width: 576px) {
+    gap: 20px;
+    .-find-growth-item-title {
+      font-size: 14px;
+      font-weight: 600;
+    }
+    .-find-growth-item-description {
+      font-size: 12px;
+    }
+  }
+}

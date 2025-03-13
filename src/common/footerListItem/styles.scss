@@ -1,0 +1,20 @@
+.footer-list-item.MuiTypography-root {
+  color: #9090a7;
+  /* font-family: Inter; */
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 400;
+  text-decoration: none;
+  line-height: 150%; /* 21px */
+  [dir="rtl"] & {
+    line-height: unset;
+  }
+  & a {
+    text-decoration: underline;
+    color: white;
+  }
+}
+
+.clickable {
+  cursor: pointer;
+}

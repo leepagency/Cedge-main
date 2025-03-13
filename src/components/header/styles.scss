@@ -1,0 +1,57 @@
+.header.MuiAppBar-root {
+  background-color: rgba(19, 1, 62, 0.95);
+  /* backdrop-filter: blur(15px); */
+  padding: 1.5rem 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  align-items: center;
+  img {
+    cursor: pointer;
+  }
+
+  .drawer-icon {
+    display: none;
+  }
+}
+
+.header-items-container {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  gap: 2.25rem;
+}
+
+.d-none {
+  display: none !important;
+}
+
+@media (max-width: 1200px) {
+  .header.MuiAppBar-root .drawer-icon {
+    display: block;
+  }
+}
+
+@media (max-width: 990px) {
+  .header.MuiAppBar-root {
+    justify-content: space-between;
+  }
+}
+@media (max-width: 960px) {
+  .header.MuiAppBar-root {
+    padding: 1.25rem 1.5rem;
+    justify-content: space-between;
+    .drawer-icon {
+      display: block;
+    }
+  }
+  .header-items-container {
+    display: none;
+  }
+}
+
+@media (max-width: 567px) {
+  .header.MuiAppBar-root {
+    padding: 1rem 1.25rem;
+  }
+}

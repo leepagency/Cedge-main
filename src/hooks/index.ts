@@ -1,0 +1,1 @@
+export * from "./useScrollRotate.hook";

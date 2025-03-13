@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: *?search_text=*
+Sitemap: https://www.cedge.com.sa/sitemap.xml
